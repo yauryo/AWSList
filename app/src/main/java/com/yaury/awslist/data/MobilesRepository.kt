@@ -5,5 +5,4 @@ import kotlinx.coroutines.flow.Flow
 
 interface MobilesRepository {
     suspend fun getMobilesList(): Flow<Result<List<MobileItem>>>
-
 }

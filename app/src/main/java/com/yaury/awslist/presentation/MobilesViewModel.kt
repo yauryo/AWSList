@@ -28,13 +28,12 @@ class MobilesViewModel(
             mobilesRepository.getMobilesList().collectLatest { result ->
                 when(result) {
                     is Result.Success -> {
-                        _showErrorToastChannel.send(true)
-                    }
-                    is Result.Error -> {
                         result.data?.let { mobiles ->
                             _mobiles.update { mobiles }
                         }
-
+                    }
+                    is Result.Error -> {
+                        _showErrorToastChannel.send(true)
                     }
                 }
             }
