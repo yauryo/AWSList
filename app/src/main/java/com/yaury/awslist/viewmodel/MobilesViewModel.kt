@@ -1,4 +1,4 @@
-package com.yaury.awslist.presentation
+package com.yaury.awslist.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

@@ -30,7 +30,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.yaury.awslist.data.MobilesRepositoryImplementation
 import com.yaury.awslist.model.MobileItem
-import com.yaury.awslist.presentation.MobilesViewModel
+import com.yaury.awslist.viewmodel.MobilesViewModel
 import com.yaury.awslist.ui.theme.AWSListTheme
 import kotlinx.coroutines.flow.collectLatest
 
